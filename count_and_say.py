@@ -20,6 +20,7 @@ class Solution(object):
             dp.append(cur)
         print(dp)
         return dp[n-1]
+        
     countAndSay(1,5)
     countAndSay(2,7)
-    countAndSay(3,12)
+    countAndSay(1,10)
